@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#intro{
+    height: 550px;
+    color: white;
+    background-image:url(./image/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5); 
+    position: relative;
+    
+    
+}
+.card{
+    background:none;
+    border: none;
+}
+.navbar-first{
+    background-image: url(./image/image1.jpg);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+.title{
+    text-align: center;
+    padding-top: 200px;
+    background-color: rgba(0,0,0,0.5); 
+    padding-bottom: 125px;
+}
+.type1{
+    font-size: 40px;
+    
+}
+.type2{
+    font-size: 60px;
+}
+#about{
+    height: 800px;
+    border-bottom:1px solid gray;
+}
+.about-item1{
+    text-align: center;
+    color: gray;
+    padding-top: 100px;
+}
+.about-item1 h2{
+font-size: 40px;
+line-height: 20px;
+}
+.about-item2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 50px;
+}
+.about-item2 div{
+    flex:1;
+    height: 200px;
+    width: 500px;
+    color: gray;
+}
+#about{
+    height: 800px;
+    border-bottom:3px solid grey;
+}
+.services-item1{
+    text-align: center;
+    color: gray;
+    padding-top: 100px;
+}
+.services-item1 h2{
+font-size: 40px;
+line-height: 20px;
+}
+.services-item2{
+    display: grid;
+    grid-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item{
+ text-align: center;
+ padding-top: 50px;
+}
+.grid-item i{
+    font-size: 40px;
+    color: gray;
+    padding-bottom: 50px;
+}
+.grid-item p{
+    color:gray;
+}
+.grid-item h2{
+    font-size: 25px;
+}
+.work-item1{
+    text-align: center;
+    color: gray;
+    padding-top: 100px;
+}
+.work-item1 h2{
+font-size: 40px;
+line-height: 20px;
+}
+.work-item2{
+    display: grid;
+  grid-gap: 50px 100px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.image{
+height: 250px;
+width: 300px;
+background-color: lightgray;
+}
+#work{
+    border-top: 2px solid lightgrey;
+    height:900px;
+    border-bottom: 1px solid lightgrey;
+    margin-top: 50px;
+}
+@media only screen and (max-width:992px){
+
+}
+@media only screen and (max-width:768px){
+    
+}
+@media only screen and (max-width:500px){
+    
+}
